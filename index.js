@@ -6,15 +6,13 @@ import './style.css';
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      name: 'React'
-    };
+    
   }
 
   render() {
     return (
       <div>
-        <AutoComplete name={this.state.name} />
+        <AutoComplete />
         
       </div>
     );
